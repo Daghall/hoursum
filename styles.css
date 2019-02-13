@@ -1,0 +1,45 @@
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  border-bottom: 4px solid firebrick;
+  font-family: sans-serif;
+  margin: 0 0 10px 0;
+  text-indent: 10%;
+  font-weight: 500;
+}
+
+input,
+.text,
+#result {
+  display: inline-block;
+  font-size: 24px;
+  height: 30px;
+  margin: 0 5px;
+  vertical-align: middle;
+  font-family: sans-serif;
+}
+
+input {
+  padding: 5px 10px;
+  width: 100px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width:640px) {
+  input,
+  #result {
+    width: 80%;
+    margin: 3px 0;
+  }
+
+  #result {
+    padding-left: 9px;
+  }
+}
+
+#submit {
+  display: none;
+}

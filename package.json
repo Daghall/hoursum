@@ -1,0 +1,16 @@
+{
+  "name": "hoursum",
+  "version": "1.0.0",
+  "description": "Sum two times in the format hh[[:mm][:ss]]",
+  "scripts": {
+    "test": "mocha test && eslint ."
+  },
+  "author": "Markus Daghall <markus@daghall.se>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
